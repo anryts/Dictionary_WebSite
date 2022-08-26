@@ -1,0 +1,13 @@
+
+
+.Input_word
+{
+    width: 100%;
+    margin-bottom: 3px;
+    height: 40px;
+    border: 1px solid teal;
+    padding: 0 10px;
+    font-size: 14px;
+    color: teal;
+    outline: none;
+}
