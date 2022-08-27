@@ -1,8 +1,9 @@
 import React from 'react';
-import classes from './Input.module.css';
-const InputWord = () => {
+import  './Input_module.css';
+
+const InputWord = ({value,onChange}) => {
     return (
-        <input className={classes.Input}  placeholder='Type word... (:'>
+        <input className='Input_word' value={value} onChange={e=> onChange(e.target.value)} >
         </input>
     );
 };
