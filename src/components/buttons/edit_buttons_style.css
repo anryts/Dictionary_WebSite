@@ -2,8 +2,8 @@
 .button
 {
     cursor: pointer;
-    background-color: mediumorchid;
     height: 40px;
     width: 40px;
+    margin-left: 5px;
 }
 

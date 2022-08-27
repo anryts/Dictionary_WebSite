@@ -5,7 +5,7 @@ import close_icon from './icons/close_icon.png';
 import search_icon from './icons/search_icon.png';
 
 const InputLabel = () => {
-    const [word, setWord] = useState('Type word');
+    const [word, setWord] = useState('');
 
     const clearInput = (e) => {
         e.preventDefault();
@@ -24,11 +24,12 @@ const setValue = (e) => {
 }
 
     return (
-        <form>
-            <Button onClick={printWord} icon={close_icon}/>
+        <div className =
+        'm-10 border-2 border-to-purple-700 place-items-center flex justify-between'>
+            <Button onClick= {printWord}  icon={search_icon}/>
             <InputWord value={word} type='text' onChange={setValue} />
-            <Button onClick= {clearInput}  icon={search_icon}/>
-        </form>
+            <Button onClick={clearInput} icon={close_icon}/>
+        </div>
     );
 };
 
