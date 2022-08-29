@@ -1,12 +1,20 @@
+.Input_word {
+  width: 90%;
+  height: 40px;
+  padding: 0 10px;
+  font-size: 14px;
+  outline: none;
+  margin: auto;
+  display: inline-block;
+}
 
-
-.Input_word
-{
-    width: 90%;
-    height: 40px;
-    padding: 0 10px;
-    font-size: 14px;  
-    outline: none;
-    margin: auto;
-    display: inline-block;
+.Input_translate {
+  height: 300px;
+  width: 90%;
+  margin-left: 15px;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  margin-right: 5px;
+  background-color: white;
+  text-align: left;
 }

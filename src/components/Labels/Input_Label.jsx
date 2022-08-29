@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
-import InputWord from "./inputs/input_word";
-import Button from "./buttons/button";
-import close_icon from './icons/close_icon.png';
-import search_icon from './icons/search_icon.png';
+import InputWord from "../inputs/input_word";
+import Button from "../buttons/button";
+import close_icon from '../icons/close_icon.png';
+import search_icon from '../icons/search_icon.png';
 
 const InputLabel = () => {
     const [word, setWord] = useState('');

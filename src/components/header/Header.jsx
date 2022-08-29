@@ -1,7 +1,7 @@
 import React from 'react'
 import login_icon from '../icons/login_icon.png'
 import Button from "../buttons/button";
-import Input_Label from "../Input_Label";
+import Input_Label from "../Labels/Input_Label";
 import './header_style.css'
 import logo_website from '../icons/logo_website.png'
 
