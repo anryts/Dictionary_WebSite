@@ -1,0 +1,23 @@
+.header
+{
+    background-color: slateblue;
+    border: 1px solid black;
+    display: grid;
+    grid-template-rows: 1fr 1fr
+}
+
+
+.header_title
+{
+   /* p-1 grid grid-cols-3  place-items-center*/
+    display: grid;
+    grid-template-columns: 50% 45% 5%;
+    justify-items: center;
+    align-items: center;
+}
+
+.header_under_title
+{
+    display: grid;
+    grid-template-columns: 10%  90%;
+}

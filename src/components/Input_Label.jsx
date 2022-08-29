@@ -9,13 +9,11 @@ const InputLabel = () => {
 
     const clearInput = (e) => {
         e.preventDefault();
-        alert('Clear');
         setWord('');
     }
 
     const printWord = (e) => {
         e.preventDefault();
-        alert(word);
         setWord(word)
     }
 
@@ -25,7 +23,7 @@ const setValue = (e) => {
 
     return (
         <div className =
-        'm-10 border-2 border-to-purple-700 place-items-center flex justify-between'>
+        ' mr-4 border-2 border-to-purple-700 place-items-center flex justify-between bg-white'>
             <Button onClick= {printWord}  icon={search_icon}/>
             <InputWord value={word} type='text' onChange={setValue} />
             <Button onClick={clearInput} icon={close_icon}/>
