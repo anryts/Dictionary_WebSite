@@ -22,6 +22,6 @@ yarn-debug.log*
 yarn-error.log*
 
 
-/build/
-/node_modules/
-/.idea/
+build/
+node_modules/
+.idea/
