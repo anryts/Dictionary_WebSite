@@ -9,10 +9,15 @@ export default function Header() {
   const  login= () => {
     alert('what are you doing?');
     }
+    const goto_register = () => {
+        alert('TRANSLATE ME');
+    }
+
+
     return (
     <div className=' header pb-4 fixed w-full'>
       <div className='header_title'>
-        <h1>TRANSLATOR</h1>
+        <Button onClick={goto_register} text={'TRANSLATOR'}></Button>
         <h1>DICTIONARY</h1>
         <div className='justify-end'>
         <Button  onClick={login} icon={login_icon}/>
